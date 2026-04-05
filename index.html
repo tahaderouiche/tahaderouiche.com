@@ -26,7 +26,10 @@
 	<meta property="twitter:image" content="https://tahaderouiche.com/img/profile.png">
 
 	<title>Taha Derouiche - Senior Solution Architect @ Grafana Labs</title>
-	<link rel="icon" href="logo-website.png">
+	<link rel="icon" type="image/png" href="logo-website.png">
+	<link rel="apple-touch-icon" href="logo-website.png">
+	<link rel="manifest" href="site.webmanifest">
+	<meta name="theme-color" content="#007AFF">
 
 	<!-- Fonts & Styles -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -99,7 +102,10 @@
 
 	<!-- Hero -->
 	<header class="hero">
-		<img class="hero__avatar" src="img/profile.png" alt="Taha Derouiche" width="96" height="96" loading="eager">
+		<picture>
+			<source srcset="img/profile.webp" type="image/webp">
+			<img class="hero__avatar" src="img/profile.png" alt="Taha Derouiche" width="96" height="96" loading="eager">
+		</picture>
 		<h1 class="hero__name">Taha Derouiche</h1>
 		<h2 class="hero__title">Senior Solution Architect @ Grafana Labs</h2>
 		<p class="hero__intro">Hi there! I'm Taha. Based in the Netherlands, I help companies make sense of their infrastructure through observability and cloud-native solutions. Always happy to connect and chat!</p>
@@ -117,7 +123,10 @@
 					<p>Outside of work, I'm passionate about smart home automation, nerding out about the latest tech gadgets, continuous learning, and staying active through running.</p>
 				</div>
 				<div class="about__image fade-up">
-					<img src="img/work.jpg" alt="Professional workspace and technology setup" loading="lazy">
+					<picture>
+						<source srcset="img/work.webp" type="image/webp">
+						<img src="img/work.jpg" alt="Professional workspace and technology setup" loading="lazy">
+					</picture>
 				</div>
 			</div>
 		</div>

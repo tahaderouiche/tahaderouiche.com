@@ -284,6 +284,9 @@ h1, h2, h3, h4 {
   object-fit: cover;
   margin-bottom: 1.5rem;
   box-shadow: var(--shadow-md);
+  border: 3px solid var(--color-bg);
+  outline: 3px solid var(--color-primary);
+  outline-offset: 2px;
 }
 
 .hero__name {
