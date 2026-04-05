@@ -278,8 +278,8 @@ h1, h2, h3, h4 {
 }
 
 .hero__avatar {
-  width: 140px;
-  height: 140px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 2rem;
