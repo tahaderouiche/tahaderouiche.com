@@ -2,3 +2,6 @@
 *.pdf
 *.docx
 *.pages
+.op/
+.claude/
+CLAUDE.md
