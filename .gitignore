@@ -5,3 +5,4 @@
 .op/
 .claude/
 CLAUDE.md
+*.code-workspace
